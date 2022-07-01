@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box  ;
 }
+body{
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
 header{
   height: 100px;
   background-color: black;
@@ -18,13 +22,36 @@ header{
 .logo{
   width: 100px;
 }
+.logoimg, .logoimgimg{
+  width: 80px;
+  height: 80px;
+  background-color: #828756;
+}
 .menu{
   flex: 1;
   display: flex;
   justify-content: flex-end;
 }
-.logoimg, .logoimgimg{
-  width: 80px;
-  height: 80px;
-  background-color: #828756;
+.menu ul,
+.menu li{
+  list-style: none;
+}
+.menu ul{
+  display: flex;
+}
+.menu li a{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  border-bottom: 5px solid black;
+}
+.menu li a:hover,
+.menu .active a{
+  border-bottom: 5px solid  #828756;
 }
