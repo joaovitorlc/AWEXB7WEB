@@ -74,3 +74,35 @@ header{
   display: inline-block;
   background-color: rgb(0, 0, 0, 0.7);
 }
+.banner .slidearea{
+  display: flex;
+  color: white;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  flex-direction: column;
+}
+.banner h1{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 50px;
+}
+.banner span{
+  color: #A3AB78;
+}
+.banner h2{
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.banner a{
+  display: block;
+  background-color: #A3AB78;
+  color: white;
+  text-transform: uppercase;
+  font-size: 11px;
+  text-decoration: none;
+  padding: 10px 30px;
+  margin-top: 30px;
+  font-weight: 600;
+  border-radius: 20px;
+}
