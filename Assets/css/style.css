@@ -254,3 +254,52 @@ CSS DE ÁREAS ESPECÍFICAS
 .section-projects--filters li:first-child{
   border-left: 0;
 }
+
+
+
+
+.section-projects--photos{
+  width: 100vw;
+  max-width: 1140px;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap; /*Caso não couber na mesma linha, ele está permitido ir colocando nas linhas abaixo, porém já com display: flex;*/
+  justify-content: center;
+}
+.section-projects--photo{
+  width: 280px;
+}
+.section-projects--photoarea{
+  margin: 10px;
+  width: 260px;
+  height: 160px;
+  transition:1s;
+}
+.section-projects--photoarea img{
+  width: inherit; /*Essa função de inherit faz o comando, erdar a mesma propriedade definida na última vez utilizada*/
+  height: inherit;
+}
+.section-projects--photoinfo{
+  position: absolute;
+  background-color: rgb(0, 0, 0, 0.7);
+  width: inherit;
+  height: inherit;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #aaa;
+  backdrop-filter: blur(2px);
+}
+.section-projects--photoinfo h5{
+  font-size: 18px;
+  font-weight: 600;
+}
+.section-projects--photoarea:hover .section-projects--photoinfo{
+  display: flex;
+}
+.section-projects--photoarea:hover{
+  box-shadow: 0px 5px 10px rgb(0, 0, 0, 0.5);
+  transform: scale(1.1);
+  cursor: pointer;
+}
