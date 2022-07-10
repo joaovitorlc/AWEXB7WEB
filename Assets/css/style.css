@@ -310,6 +310,7 @@ CSS DE ÁREAS ESPECÍFICAS
   background-size: cover;
   background-position: center;
   padding: 0;
+  max-height: 550px;
 }
 .section-team-area{
   background-color: rgb(0, 0, 0, 0.7);
@@ -393,4 +394,79 @@ CSS DE ÁREAS ESPECÍFICAS
 }
 .section-team--social img:hover{
   border: 2px solid #A3AB78;
+}
+
+
+
+
+
+/*Exercício, fazer sozinho essa metade do curso*/
+
+.default.light.clients{
+  background-color: white;
+}
+.section-body-clients{
+  background-size: cover;
+  background-position: center;
+}
+.default.light.clients .section-title{
+  font-weight: 800;
+  font-size: 28px;
+}
+.section-body-clients{
+  max-width: 1140px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.section-body-clients .clients-photo{
+  margin-top: 30px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.section-body-clients .section-clients-name{
+  font-size: 25px;
+  font-weight: 800;
+  margin-top: 30px;
+}
+.section-body-clients .section-clients-desc{
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+.Clients-quote{
+  margin-top: 30px; 
+}
+.Clients-text{
+  margin-top: 12px; 
+  font-weight: 600;
+  max-width: 800px;
+  text-align: center;
+  color: #777;
+  line-height: 24px;
+}
+
+
+
+.default.light.clients .sliders-pointers{
+  margin-top: 30px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.default.light.clients .pointer{
+  width: 15px;
+  height: 15px;
+  border: 2px solid #A3AB78;
+  border-radius: 7px;
+  margin-left: 5px; 
+  margin-right: 5px;
+  cursor: pointer;
+}
+.default.light.clients .pointer.active{
+  background-color: #A3AB78;
 }
