@@ -478,3 +478,18 @@ CSS DE ÁREAS ESPECÍFICAS
 .default.light.clients .pointer.active{
   background-color: #A3AB78;
 }
+
+
+
+.default-slogan{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-direction: row;
+}
+.default-slogan-area{
+  max-width: 990px;
+}
+.default-slogan img{
+  margin: 30px;
+}
