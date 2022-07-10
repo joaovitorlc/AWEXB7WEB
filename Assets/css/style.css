@@ -403,7 +403,7 @@ CSS DE ÁREAS ESPECÍFICAS
 /*Exercício, fazer sozinho essa metade do curso*/
 
 .default.light.clients{
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 .section-body-clients{
   background-size: cover;
@@ -436,6 +436,14 @@ CSS DE ÁREAS ESPECÍFICAS
   font-size: 18px;
   font-weight: 600;
   margin-top: 5px;
+}
+.default.light.clients .section-desc a{
+  color: #A3AB78;
+  text-decoration: none;
+}
+.default.light.clients .section-desc a:hover{
+  background-color: black;
+  color: white;
 }
 .Clients-quote{
   margin-top: 30px; 
