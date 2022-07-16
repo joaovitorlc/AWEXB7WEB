@@ -776,3 +776,50 @@ CSS DE ÁREAS ESPECÍFICAS
   width: 15px;
   height: auto;
 }
+
+
+
+
+
+
+
+/*RODAPÉ*/
+
+.section-footer{
+  display: flex;
+}
+.footer-redes{
+  flex: 1;
+  background-color: #34c5f0;
+}
+.footer-text{
+  flex: 1;
+  background-color: #336297;
+  padding: 20px;
+}
+.footer-email{
+  display: flex;
+  flex: 1;
+  background-color: #828756;
+  align-items: center;
+  justify-content: center;
+}
+.footer-email-email{
+  background-color: #444;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer-email-email input{
+  height:20px;
+  font-size: 12px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 3px solid #777;
+  text-align: center;
+}
+.footer-email-email input:focus {
+  outline: 0;
+}
