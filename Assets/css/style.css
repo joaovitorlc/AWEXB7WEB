@@ -383,19 +383,19 @@ CSS DE ÁREAS ESPECÍFICAS
   display: flex;
   margin-top: 20px;
 }
-.section-team--social img{
-  width: 30px;
-  height: 30px;
-  border-radius: 15px;
-}
+
 .section-team--social a{
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  margin-right: 8px;
+  width: 25px;
+  height: 25px;
+  border-radius: 13px;
+  background-color: #999;
+  margin-right: 10px;
 }
-.section-team--social img:hover{
-  border: 2px solid #A3AB78;
+.section-team--social a:hover{
+  background-color: #A3AB78;
 }
 
 
@@ -787,15 +787,34 @@ CSS DE ÁREAS ESPECÍFICAS
 
 .section-footer{
   display: flex;
+  max-width: 1100px;
 }
 .footer-redes{
   flex: 1;
-  background-color: #34c5f0;
+}
+
+.footer-redes-icon{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: #777;
+  padding: 15px;
+}
+.footer-redes-icon--icones img{
+  padding-left: 10px;
+  color: #777;
+}
+.footer-redes-icon--info{
+
+}
+
+.footer-redes-icon{
+  padding-left: 50px;
 }
 .footer-text{
   flex: 1;
-  background-color: #336297;
   padding: 20px;
+  color:  #777;
 }
 .footer-email{
   display: flex;
@@ -803,10 +822,10 @@ CSS DE ÁREAS ESPECÍFICAS
   background-color: #828756;
   align-items: center;
   justify-content: center;
+  background-color: #444;
 }
 .footer-email-email{
   background-color: #444;
-  padding: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -819,7 +838,25 @@ CSS DE ÁREAS ESPECÍFICAS
   border: none;
   border-bottom: 3px solid #777;
   text-align: center;
+  min-width: 220px;
 }
 .footer-email-email input:focus {
   outline: 0;
+}
+.footer-redes-icon--icones img{
+  height: 25px;
+  padding: 6px;
+}
+.footer-redes-icon--icones a{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #999;
+  margin-right: 5px;
+}
+.footer-redes-icon--icones a:hover{
+  background-color: #A3AB78;
 }
