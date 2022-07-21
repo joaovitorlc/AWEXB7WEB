@@ -28,6 +28,9 @@ header{
   height: 80px;
   background-color: #828756;
 }
+.menu-opener{
+  display: none;
+}
 .menu{
   flex: 1;
   display: flex;
@@ -859,4 +862,142 @@ CSS DE ÁREAS ESPECÍFICAS
 }
 .footer-redes-icon--icones a:hover{
   background-color: #A3AB78;
+}
+
+
+
+
+
+
+
+
+
+
+/*RESPONSIVIDADE*/
+@media (max-width:800px) and (min-width:450px) {
+  .logo{
+    margin-left: 30px;
+  }
+  .menu-opener{
+    display: block;
+    width: 45px;
+    margin-right: 30px;
+  }
+  nav{
+    display: none;
+    position: absolute;
+    z-index: 99;
+    background-color: rgb(0, 0, 0, 0.9);
+    width: 70vw;
+    height: calc(100vh - 100px);
+    top: 100px;
+    right: 0;
+  }
+  .menu ul{
+    flex-direction: column;
+  }
+  .menu li a{
+    font-weight: bold;
+    height: 80px;
+    font-size: 27px;
+    margin-left: 50px;
+    border: 0;
+  }
+  .menu li.active a{
+    border: 0;
+    color: #A3AB78;
+  }
+
+  .section-aboutus{
+    flex-direction: column;
+  }
+  .section-aboutus--left{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  
+  .section-price{
+    padding: 25px;
+  }
+
+  .section-aboutus--right{
+    width: auto;
+  }
+  .section-services{
+    flex-wrap: wrap;
+  }
+  .section-service{
+    min-width: 50%;
+    margin-bottom: 40px;
+  }
+
+
+  .section-Team{
+    max-width: 580px;
+  }
+
+  .default-slogan-area {
+    max-width: 500px;
+  }
+
+  .button{
+    margin: auto;
+  }
+
+  .Clients-text{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .section-map{
+    padding:30px;
+  }
+  .section-map--area{
+    width: auto;
+  }
+  .section-map--info{
+    width: auto;
+  }
+  .section-map--info-item{
+    margin-bottom: 20px;
+  }
+
+
+
+  .section-footer{
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .banner h1{
+    margin-top: 150px;
+  }
+  .slidearea .button{
+    margin-top: 60px;
+  }
+
+  .footer-redes-icon{
+    padding: 0;
+  }
+  .footer-text{
+    margin: 20px;
+  }
+  .footer-email-email{
+    height: 150px;
+    padding: 50px;
+    
+  }
+  .footer-email-email input {
+    margin-bottom: 30px;
+  }
+
 }
