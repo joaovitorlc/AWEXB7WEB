@@ -26,7 +26,6 @@ header{
 .logoimg, .logoimgimg{
   width: 80px;
   height: 80px;
-  background-color: #828756;
 }
 .menu-opener{
   display: none;
@@ -869,8 +868,41 @@ CSS DE ÁREAS ESPECÍFICAS
 
 
 
+@media (max-width:1177px){
+  .logoimgimg{
+    margin-left: 40px;
+  }
+  .menu{
+    margin-right: 40px;
+  }
+}
 
-
+@media (max-width:1000px){
+  .logoimg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .logoimgimg{
+    width: 65px;
+    height: 65px;
+    align-items: center;
+  }
+  .menu{
+    font-size: 12px;
+  }
+  .section-aboutus--left{
+    padding: 20px;
+  }
+  .section-aboutus--right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+  }
+}
 
 
 /*RESPONSIVIDADE*/
