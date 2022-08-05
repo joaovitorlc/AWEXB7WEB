@@ -2,11 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box  ;
+
 }
 body{
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   font-size: 13px;
   overflow-x: hidden;
+  min-width: 100vw;
 }
 header{
   height: 100px;
@@ -884,6 +886,7 @@ CSS DE ÁREAS ESPECÍFICAS
     align-items: center;
     justify-content: center;
   }
+
   .logoimgimg{
     width: 65px;
     height: 65px;
