@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html{
+  width: 100vw;
+}
 main{
   overflow-x: hidden;
 }
@@ -911,7 +914,48 @@ CSS DE ÁREAS ESPECÍFICAS
 
 
 /*RESPONSIVIDADE*/
-@media (max-width:800px) and (min-width:361px) {
+
+@media (max-width:950px) {
+  .menu li a{
+    font-size: 11px;
+  }
+  .slidearea h1{
+    font-size: 40px;
+  }
+  .section-aboutus--left p{
+    font-size: 12px;
+  }
+  .section-aboutus--right img{
+    width: 380px;
+  }
+  .default-slogan-area img{
+    margin: 10px;
+  }
+  .section-aboutus--left{
+    margin-left: 60px;
+  }
+  .section-premium--right{
+    margin-right: 70px;
+  }
+}
+
+
+@media (max-width:900px){
+  .section-aboutus{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-aboutus--left{
+    padding: 50px;
+    margin: 0px;
+  }
+  .section-Team{
+    max-width: 580px;
+  }
+}
+
+@media (max-width:800px) {
   .logo{
     margin-left: 30px;
   }
@@ -936,7 +980,7 @@ CSS DE ÁREAS ESPECÍFICAS
   .menu li a{
     font-weight: bold;
     height: 80px;
-    font-size: 27px;
+    font-size: 20px;
     margin-left: 50px;
     border: 0;
   }
@@ -1041,144 +1085,54 @@ CSS DE ÁREAS ESPECÍFICAS
 
 
 
-
-
-
-
-@media (max-width:360px) {
+@media (max-width: 450px) {
   .logo{
-    margin-left: 30px;
+    margin-left: 0px;
   }
   .menu-opener{
-    display: block;
-    width: 45px;
-    margin-right: 30px;
+    width: 40px;
+    margin-right: 0px;
   }
   nav{
     display: none;
     position: absolute;
     z-index: 99;
     background-color: rgb(0, 0, 0, 0.9);
-    width: 85vw;
+    width: 70vw;
     height: calc(100vh - 100px);
     top: 100px;
     right: 0;
   }
-  .menu ul{
-    flex-direction: column;
-  }
-  .menu li a{
-    font-weight: bold;
-    height: 50px;
-    font-size: 15px;
-    margin-left: 20px;
-    border: 0;
-  }
-  .menu li.active a{
-    border: 0;
-    color: #A3AB78;
-  }
   .banner h1{
-    font-size: 30px;
-  }
-  .banner h2{
-    font-size: 15px;
-  }
-
-  .section-aboutus{
-    flex-direction: column;
-  }
-  .section-aboutus--left{
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-bottom: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    font-size: 20px;
   }
   .section-aboutus--right img{
-    width: 100%;
-
+    width: 300px;
   }
-  .section-price{
-    padding: 25px;
+  .section-projects--filters{
+    margin: 0px 20px;
   }
-
-  .section-aboutus--right{
-    width: auto;
-    margin-left: 30px;
-    margin-right: 30px;
-  }
-  .section-services{
-    flex-wrap: wrap;
-  }
-  .section-service{
-    min-width: 50%;
-    margin-bottom: 40px;
-  }
-
-
-  .section-Team{
-    max-width: 580px;
-  }
-
-  .default-slogan-area {
-    max-width: 500px;
-  }
-
-  .button{
-    margin: auto;
-  }
-
-  .Clients-text{
-    margin-left: 30px;
-    margin-right: 30px;
-  }
-
-  .section-map{
-    padding:30px;
-  }
-  .section-map--area{
-    width: auto;
-  }
-  .section-map--info{
-    width: auto;
-  }
-  .section-map--info-item{
-    margin-bottom: 20px;
-  }
-
-
-
-  .section-footer{
-    max-width: 450px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-  }
-  .banner h1{
-    margin-top: 150px;
-  }
-  .slidearea .button{
-    margin-top: 60px;
-  }
-
-  .footer-redes-icon{
-    padding: 0;
-  }
-  .footer-text{
-    margin: 20px;
-  }
-  .footer-email-email{
-    height: 150px;
-    padding: 50px;
-    
-  }
-  .footer-email-email input {
-    margin-bottom: 30px;
-  }
-
+  
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
