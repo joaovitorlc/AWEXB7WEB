@@ -1169,7 +1169,10 @@ CSS DE ÁREAS ESPECÍFICAS
   .section-projects--filters{
     margin: 0px 20px;
   }
-  
+  .section-projects--filters li{
+    font-size: 7px;
+    padding: 3px;
+  }
 }
 
 
