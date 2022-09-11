@@ -1093,7 +1093,7 @@ CSS DE ÁREAS ESPECÍFICAS
 
 }
 
-@media (max-width: 650px){
+@media (max-width: 700px){
   .slidearea h1{
     font-size: 30px;
   }
@@ -1101,11 +1101,34 @@ CSS DE ÁREAS ESPECÍFICAS
     max-width: 300px;
   }
   .default-slogan-area img{
-    width: 60px;
+    width: 45px;
   }
-  
   .section-price{
     flex-direction: column;
+    padding: 0px 25px;
+  }
+  .section-price .section-price--item{
+    margin: 20px;
+  }
+  .section-projects--filters li{
+    font-size: 10px;
+  }
+  .slidearea{
+    flex-direction: column;
+  }
+  .section-premium--left img{
+    width: 230px;
+  }
+  .section-premium--right{
+    margin: 0px 30px;
+    margin-top: 30px;
+  }
+  .section-facts{
+    flex-direction: column;
+  }
+  .section-share--legend{
+    font-size: 10px;
+    margin-right: 10px;
   }
 }
 
