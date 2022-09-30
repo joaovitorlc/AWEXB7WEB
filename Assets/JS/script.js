@@ -1,9 +1,11 @@
-function menuJs() {
+function menuToggle() {
+  let menuOpener = document.getElementsByClassName("menu-opener");
   let menuOpened = document.getElementById("menu-opened");
 
-  if(menuOpened.style.display == "none") {
-    menuOpened.style.display = "block";
+  if(menuOpened.style.display == "block") {
+    menuOpened.style.display == "none";
   } else{
-    menuOpened.style.display = "none";
+    menuOpened.style.display = "block";
   }
+  
 }
