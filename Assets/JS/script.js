@@ -1,4 +1,4 @@
-function menuToggle() {
+function menuJs() {
   let menuOpened = document.getElementById("menu-opened");
 
   if(menuOpened.style.display == "block") {
